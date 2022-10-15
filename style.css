@@ -24,13 +24,13 @@
 .sidebar nav li {
     list-style: none;
     padding: 30px;
-} 
+}
 
 
 .sidebar nav li a {
     text-decoration: none;
     color: black;
-} 
+}
 
 .main {
     /*background-color: yellow;*/
@@ -77,7 +77,7 @@
 
 .moreabout {
     font-size: 30px;
-    margin-top: 20px ;
+    margin-top: 20px;
 }
 
 
@@ -94,7 +94,7 @@
     font-weight: lighter;
 }
 
-.btn button:hover{
+.btn button:hover {
     background-color: white;
     color: cornflowerblue;
 }
@@ -105,36 +105,91 @@
 }
 
 
-.contactform{
+.contactform {
     padding: 0 34px;
     padding-top: 2vh;
 }
 
 
-.contactform h1{
-    text-align: left; 
+.contactform h1 {
+    text-align: left;
     padding: 12px 0;
 }
 
 
-.contactform form div{
+.contactform form div {
     padding: 10px 0px;
     display: flex;
     flex-direction: column;
     width: 25vw;
 }
 
-#form-check{
+#form-check {
     flex-direction: row;
 }
 
-.form-check-input{
+.form-check-input {
     width: 16px;
     margin: 0px 10px 0 0;
 }
 
-#emailHelp{
+#emailHelp {
     font-size: 8px;
     color: black;
     align-items: center;
+}
+
+
+h1 {
+    margin: 20px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+
+p {
+    margin: 20px;
+    width: 70vw;
+}
+
+
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+}
+
+.skillcontainer {
+    margin:20px;
+}
+
+.skill {
+    width: 20vw;
+    height: 10px;
+    background-color: red;
+    border-radius: 20px;
+    border: 2px solid slateblue;
+}
+
+.p100 {
+    width: 20vw;
+}
+
+.p80 {
+    width: 16vw;
+}
+
+.p50 {
+    width: 10vw;
+}
+
+.p25 {
+    width: 5vw;
+}
+
+.p60 {
+    width: 12vw;
 }
